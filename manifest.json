@@ -2,8 +2,6 @@
   "manifest_version": 3,
   "name": "Hide Animated Emoji",
   "version": "1.0",
-  "host_permissions": ["https://*.telegram.org/*"],
-
   "content_scripts": [
     {
       "matches": ["*://*.telegram.org/*"],
